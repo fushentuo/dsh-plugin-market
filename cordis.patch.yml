@@ -1,0 +1,6 @@
+# DeepSeek Harness 社区插件市场（bundle 补丁层）
+# 插入一个自引用的 loader 行：宿主半侧提供 Config（语言/社区地址/存储位置），
+# 客户端半侧（lib/client.js）由 dsh.client 声明组合进浏览器应用。
+- insert:
+    - id: plugin-market
+      name: '@deepseek-ai/dsh-plugin-market'
